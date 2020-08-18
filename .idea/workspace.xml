@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="78cb3e1b-abdf-42ec-897f-3cee3712435e" name="Default Changelist" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/botConfiger.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botConfig.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/colors.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iu-pcVer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/botConfiger.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mySite.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +46,11 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" nameIsGenerated="true" engineId="4d6463bc-1f60-4dbe-84b8-a3486f4ccdab" uri="http://localhost:63342/mySite/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,21 +65,43 @@
       <workItem from="1597673475492" duration="1210000" />
       <workItem from="1597715762227" duration="1972000" />
       <workItem from="1597773751237" duration="1579000" />
+      <workItem from="1597775357695" duration="177000" />
+      <workItem from="1597775642258" duration="542000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1597775415861</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597775415861</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="972" y="515" key="Github.ShareDialog" timestamp="1597775216979">
+    <state x="972" y="515" key="Github.ShareDialog" timestamp="1597775715255">
       <screen x="0" y="0" width="2194" height="1234" />
     </state>
-    <state x="972" y="515" key="Github.ShareDialog/0.0.2194.1234/3840.1072.1920.1080/-1920.1072.1920.1080@0.0.2194.1234" timestamp="1597775216979" />
+    <state x="972" y="515" key="Github.ShareDialog/0.0.2194.1234/3840.1072.1920.1080/-1920.1072.1920.1080@0.0.2194.1234" timestamp="1597775715255" />
     <state x="940" y="318" key="Github.UntrackedFilesDialog" timestamp="1597775230678">
       <screen x="0" y="0" width="2194" height="1234" />
     </state>

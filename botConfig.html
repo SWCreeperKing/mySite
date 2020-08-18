@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bot Configurer</title>
+    <link rel="stylesheet" href="colors.css">
+    <script src="main.js"></script>
+</head>
+<body>
+<br><form action="index.html">
+    <input type="submit" value="Back To Main Site">
+</form>
+<br><br><br>
+To get a Channel Id, right click the channel and click 'Copy Id'<br>
+To get a Role Id goto the server's settings -> go into roles -> right click on the role and click 'Copy Id'<br><br>
+<label>
+    <label>Server Prefix: </label>
+    <input type="text" id="botPrefix" value="[]">
+</label><br>
+<div class="buttonContainer" id="trstAdmn">
+    <label>Should I allow Admins to do powerful commands?: </label>
+    <button class="trustAdmin" id="trustAdminT" onclick="openTab('trstAdmn', this, 'trustAdmin'), setTrust(true)">Yes
+    </button>
+    <button class="trustAdmin active" id="trustAdminF"
+            onclick="openTab('trstAdmn', this, 'trustAdmin'), setTrust(false)">No
+    </button>
+</div>
+<br>
+<label></label><br>
+<label>Join Message: </label>
+<input type="text" id="joinMsg" value=""><br>
+<label>Leave Message: </label>
+<input type="text" id="leaveMsg" value=""><br><br>
+<label>Channel Id for Bot Log Messages: </label>
+<input type="number" id="logchnnlId" value="0"><br>
+<label>Channel Id for Join/Leave Messages: </label>
+<input type="number" id="jlchnnlId" value="0"><br>
+<label>Channel Id for Member Counter: </label>
+<input type="number" id="memberchnnlId" value="0"><br>
+<label>Role Id for Mute Role: </label>
+<input type="number" id="muteroleid" value="0"><br><br>
+<input readonly type="text" id="output"><br>
+<button onclick="generate()">Generate</button>
+<button onclick="copyToClipboard()">Copy</button>
+</body>
+</html>

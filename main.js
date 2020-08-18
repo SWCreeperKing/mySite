@@ -1,0 +1,40 @@
+let trustAdmins = false
+
+function setTrust(bool) {
+    trustAdmins = bool
+}
+
+function openTab(categoryName, element, buttonCategory) {
+    let tabs = document.getElementsByClassName(categoryName);
+    let tabButtons = document.getElementsByClassName(buttonCategory)
+    for (let i = 0; i < tabs.length; i++) tabs[i].style.display = "none"
+    for (let i = 0; i < tabButtons.length; i++)
+        tabButtons[i].className = tabButtons[i].className.replace(" active", "")
+    element.className += " active"
+}
+
+function generate() {
+    let text = document.getElementById("botPrefix").value + "_"
+        + document.getElementById("joinMsg").value.replace(/_/gi, " ") + "_"
+        + document.getElementById("leaveMsg").value.replace(/_/gi, " ") + "_"
+        + trustAdmins + "_"
+        + document.getElementById("logchnnlId").value + "_"
+        + document.getElementById("jlchnnlId").value + "_"
+        + document.getElementById("memberchnnlId").value + "_"
+        + document.getElementById("muteroleid").value
+    let input = document.getElementById("output")
+    input.value = text
+
+}
+
+function pasteFromClipboard() {
+    let pasteText = document.getElementById("input")
+    pasteText.select();
+    pasteText.setSelectionRange(0, 99999)
+    navigator.clipboard.readText().then(r => document.getElementById("input").value = r)
+}
+
+function copyToClipboard() {
+    let copyText = document.getElementById("output")
+    navigator.clipboard.writeText(copyText.value).then(r => alert("Copied output!"))
+}

@@ -10,14 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78cb3e1b-abdf-42ec-897f-3cee3712435e" name="Default Changelist" comment="continue">
-      <change afterPath="$PROJECT_DIR$/dfPfp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iupcIcon.png" afterDir="false" />
+    <list default="true" id="78cb3e1b-abdf-42ec-897f-3cee3712435e" name="Default Changelist" comment="fin bot?">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/botConfig.html" beforeDir="false" afterPath="$PROJECT_DIR$/botConfig.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dumpsterFire.html" beforeDir="false" afterPath="$PROJECT_DIR$/dumpsterFire.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iu-pcVer.html" beforeDir="false" afterPath="$PROJECT_DIR$/iu-pcVer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +79,8 @@
       <workItem from="1597959592077" duration="1192000" />
       <workItem from="1598543572089" duration="199000" />
       <workItem from="1599079505112" duration="2302000" />
-      <workItem from="1599412076296" duration="12373000" />
+      <workItem from="1599412076296" duration="12660000" />
+      <workItem from="1599429002041" duration="24000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1597775415861</created>
@@ -135,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599423352924</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fin bot?">
+      <created>1599427300236</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1599427300236</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,7 +160,8 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="add img" />
     <MESSAGE value="continue" />
-    <option name="LAST_COMMIT_MESSAGE" value="continue" />
+    <MESSAGE value="fin bot?" />
+    <option name="LAST_COMMIT_MESSAGE" value="fin bot?" />
   </component>
   <component name="WindowStateProjectService">
     <state x="972" y="515" key="Github.ShareDialog" timestamp="1597775715255">
@@ -172,9 +176,9 @@
       <screen x="0" y="0" width="2194" height="1234" />
     </state>
     <state x="606" y="262" key="SettingsEditor/0.0.2194.1234/3840.1072.1920.1080/-1920.1072.1920.1080@0.0.2194.1234" timestamp="1597863327685" />
-    <state x="690" y="350" key="Vcs.Push.Dialog.v2" timestamp="1599423356188">
+    <state x="690" y="350" key="Vcs.Push.Dialog.v2" timestamp="1599427301467">
       <screen x="0" y="0" width="2194" height="1234" />
     </state>
-    <state x="690" y="350" key="Vcs.Push.Dialog.v2/0.0.2194.1234/3840.1072.1920.1080/-1920.1072.1920.1080@0.0.2194.1234" timestamp="1599423356188" />
+    <state x="690" y="350" key="Vcs.Push.Dialog.v2/0.0.2194.1234/3840.1072.1920.1080/-1920.1072.1920.1080@0.0.2194.1234" timestamp="1599427301467" />
   </component>
 </project>

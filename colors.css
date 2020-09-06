@@ -37,6 +37,13 @@ hr.alt {
     border: none
 }
 
+hr.altalt {
+    background-color: #7ac5ff;
+    width: 50%;
+    height: 1px;
+    border: none
+}
+
 button {
     font-size: 16px;
     opacity: 65%;

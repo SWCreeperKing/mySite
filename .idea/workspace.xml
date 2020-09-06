@@ -10,14 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78cb3e1b-abdf-42ec-897f-3cee3712435e" name="Default Changelist" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/dumpsterFire.html" afterDir="false" />
+    <list default="true" id="78cb3e1b-abdf-42ec-897f-3cee3712435e" name="Default Changelist" comment="add img">
+      <change afterPath="$PROJECT_DIR$/pfp.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/botConfig.html" beforeDir="false" afterPath="$PROJECT_DIR$/botConfig.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/colors.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumpsterFire.html" beforeDir="false" afterPath="$PROJECT_DIR$/dumpsterFire.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iu-pcVer.html" beforeDir="false" afterPath="$PROJECT_DIR$/iu-pcVer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +44,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\coding projects\Web\untitled" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="index.html" type="JavascriptDebugType" nameIsGenerated="true" engineId="4d6463bc-1f60-4dbe-84b8-a3486f4ccdab" uri="http://localhost:63342/mySite/index.html" useBuiltInWebServerPort="true">
@@ -74,7 +78,7 @@
       <workItem from="1597959592077" duration="1192000" />
       <workItem from="1598543572089" duration="199000" />
       <workItem from="1599079505112" duration="2302000" />
-      <workItem from="1599412076296" duration="6289000" />
+      <workItem from="1599412076296" duration="8451000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1597775415861</created>
@@ -104,7 +108,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597777657671</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Initial Commit">
+      <created>1599420502031</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599420502031</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add img">
+      <created>1599420566209</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1599420566209</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,7 +142,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="add img" />
+    <option name="LAST_COMMIT_MESSAGE" value="add img" />
   </component>
   <component name="WindowStateProjectService">
     <state x="972" y="515" key="Github.ShareDialog" timestamp="1597775715255">
@@ -139,9 +158,9 @@
       <screen x="0" y="0" width="2194" height="1234" />
     </state>
     <state x="606" y="262" key="SettingsEditor/0.0.2194.1234/3840.1072.1920.1080/-1920.1072.1920.1080@0.0.2194.1234" timestamp="1597863327685" />
-    <state x="690" y="350" key="Vcs.Push.Dialog.v2" timestamp="1597777667027">
+    <state x="690" y="350" key="Vcs.Push.Dialog.v2" timestamp="1599420567628">
       <screen x="0" y="0" width="2194" height="1234" />
     </state>
-    <state x="690" y="350" key="Vcs.Push.Dialog.v2/0.0.2194.1234/3840.1072.1920.1080/-1920.1072.1920.1080@0.0.2194.1234" timestamp="1597777667027" />
+    <state x="690" y="350" key="Vcs.Push.Dialog.v2/0.0.2194.1234/3840.1072.1920.1080/-1920.1072.1920.1080@0.0.2194.1234" timestamp="1599420567628" />
   </component>
 </project>

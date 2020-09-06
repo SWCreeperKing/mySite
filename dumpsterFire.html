@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dumpsterfire Help</title>
+    <link rel="stylesheet" href="colors.css">
+</head>
+<body>
+<br>
+<a href="./index.html">Back To Main Site</a>
+<br>
+<br>
+<br>DumpsterFire is a Discord Bot coded in C# (dotnet core 3.1) with the Discord.net discord API
+<br>
+<br>
+<a href="https://canary.discordapp.com/channels/638443916089098241/638465451411767296/745710685245407353"
+   target="_blank">
+    <img src="dfPic.png"></a>
+<br>Click on the image above to add it to your discord server!
+<br>
+<br>DumpsterFire's UserID: 551331280923394059
+<br>
+<br>DumpsterFire's Base prefix is: []
+<br>the base prefix can be modified in the <a href="#serversettings">server settings</a>
+<br>
+<br>
+<h3><u>Somethings you should know before getting into the command help</u></h3>
+an alias is another name for the command
+<br>some commands will have additional arguments surrounded by <b>[]</b>, optional arguments will be surrounded with
+<b>{}</b>
+<br>if a command can only be executed by and owner or an admin (if trust admins is enabled) there will be a + in the
+front of the command
+<br>if something is <u>underlined</u> then it refers to the arguments of the command
+<br>
+<br>
+<div style="text-align: center">
+    <h3>Command names and structure will be this color</h3>
+    <h4>Examples will be in this color</h4>
+    <h5>Descriptions will be this color</h5>
+</div>
+<br>
+<br>the format is: Command Name | Aliases | Usage
+<br>
+<hr>
+<br>
+<div id="top" style="alignment: center; text-align: center;">
+    <h1>Commands</h1>
+    <hr class="alt">
+    <a href="#8ball">8ball</a><br>
+    <a href="#ban">+ Ban +</a><br>
+    <a href="#clear">+ Clear +</a><br>
+    <a href="#help">Help</a><br>
+    <a href="#info">Info</a><br>
+    <a href="#kick">+ Kick +</a><br>
+    <a href="#mute">+ Mute +</a><br>
+    <a href="#plantmines">Plantmines</a><br>
+    <a href="#ping">Ping</a><br>
+    <a href="#serverinfo">Serverinfo</a><br>
+    <a href="#serversettings">Serversettings</a><br>
+    <a href="#replicate">Replicate</a><br>
+</div>
+<br>
+<hr>
+<div style="text-align: center">
+    <h1>Help</h1>
+    <hr class="alt">
+    <div id="8ball">
+        <h3>8ball | 8b | <b>[]8ball {Question}</b></h3>
+        <h5>The bot will respond to your <u>question</u> with either a Yes, No, or Maybe</h5>
+        <h4>[]8ball Are you awake?</h4>
+        <h5>the bot will randomly respond with Yes/No/Maybe</h5>
+        <a href="#top">Back to Top</a>
+        <hr class="alt">
+    </div>
+    <div id="ban">
+        <h3>+ Ban | <b>[]ban (User Mention) {Reason for ban}</b></h3>
+        <h5>the bot will allow you to ban a <u>mentioned user</u> and give a <u>reason for ban</u></h5>
+        <h4>[]ban @Mee6 Not doing your job</h4>
+        <h5>this will ban Mee6 for not doing its job</h5>
+        <a href="#top">Back to Top</a>
+        <hr class="alt">
+    </div>
+    <div id="clear">
+        <h3>+ Clear | Clean | <b>[]clear {Amount of messages from 1 to 999}</b></h3>
+        <h5>the bot will clear <u>n amount</u> of messages</h5>
+        <h4>[]clear 4</h4>
+        <h5>this will clear 4 messages (including the message you sent, so make sure to do more than 1)</h5>
+        <a href="#top">Back to Top</a>
+        <hr class="alt">
+    </div>
+    <div id="help">
+        <h3>Help | Commands | <b>[]help {Command Name}</b></h3>
+        <h5>the bot will give you a list of commands you can execute, their aliases, and what they do</h5>
+        <h4>[]help</h4>
+        <h5>this will give you all the commands you can execute, their aliases, and what they do</h5>
+        <h4>[]help 8ball</h4>
+        <h5>this will give you help on the 8ball command</h5>
+        <a href="#top">Back to Top</a>
+        <hr class="alt">
+    </div>
+    <div id="info">
+        <h3>Info | <b>[]info</b></h3>
+        <h5>the bot will give you info about itself</h5>
+        <h4>[]info</h4>
+        <h5>this will respond with stuff like uptime (how long the bot has been up)</h5>
+        <a href="#top">Back to Top</a>
+        <hr class="alt">
+    </div>
+    <div id="kick">
+        <h3>+ Kick | <b>[]kick [User Mention] {Reason for Kick}</b></h3>
+        <h5>The bot will kick a <u>mentioned user</u> for a given <u>reason</u></h5>
+        <h4>[]kick @Mee6 Not doing your job</h4>
+        <h5>this will kick Mee6 for not doing its job</h5>
+        <a href="#top">Back to Top</a>
+        <hr class="alt">
+    </div>
+    <div id="mute">
+        <h3>+ Mute | <b>[]mute [User Mention] [Duration in seconds] {Reason for Mute}</b></h3>
+        <h5>The bot will mute a <u>mentioned user</u> for a given <u>reason</u> for a given amount of <u>time</u> in
+            seconds.
+            <br>assuming you have a mute role that's set in the <a href="#serversettings">server settings</a></h5>
+        <h4>[]mute @Mee6 Not doing your job</h4>
+        <h5>this will mute Mee6 for not doing its job</h5>
+        <a href="#top">Back to Top</a>
+        <hr class="alt">
+    </div>
+    <div id="plantmines">
+        <h3>Plantmines | Plantmine | Pm | <b>[]plantmines {Minefield size (3 - 14)}</b></h3>
+        <h5>The bot will generate a Minesweaper Board using spoilers (so make sure that they are turned on)</h5>
+        <h4>[]plantmines 8</h4>
+        <h5>this will create a 8x8 board</h5>
+        <a href="#top">Back to Top</a>
+        <hr class="alt">
+    </div>
+    <div id="ping">
+        <h3>Ping | <b>[]ping</b></h3>
+        <h5>Ask the bot what its ping to discord</h5>
+        <h4>[]ping</h4>
+        <h5>this will respond with the bot's ping (latency) in milliseconds (ms)</h5>
+        <a href="#top">Back to Top</a>
+        <hr class="alt">
+    </div>
+    <div id="serverinfo">
+        <h3>Serverinfo | Si | <b>[]serverinfo</b></h3>
+        <h5>the bot will respond with information about the server</h5>
+        <h4>[]serverinfo</h4>
+        <h5>this will respond with stuff like how many members are in the server</h5>
+        <a href="#top">Back to Top</a>
+        <hr class="alt">
+    </div>
+    <div id="serversettings">
+        <h3>Serversettings | Ss | []serversettings {Command Name}</h3>
+        <h5>The bot will list the serversetting's sub-commands and more info about them if you give it a <u>command name</u></h5>
+        <h4>[]serversettings</h4>
+        <h5>lists the serversettings commands</h5>
+        <h1>Server Settings Commands</h1>
+        <h4>You can also go to the <a href="./botConfig.html">server settings configurer</a></h4>
+        <hr class="alt">
+
+        <a href="#top">Back to Top</a>
+        <hr class="alt">
+    </div>
+    <div id="replicate">
+        <h3>Replicate | <b>[]replicate</b></h3>
+        <h5>the bot will send the bot's invite link so you can infect other servers with it</h5>
+        <h4>[]replicate</h4>
+        <h5>this will respond will the invite link</h5>
+        <a href="#top">Back to Top</a>
+        <hr class="alt">
+    </div>
+    <!--<div>-->
+    <!--    <h3></h3>-->
+    <!--    <h5></h5>-->
+    <!--    <h4></h4>-->
+    <!--    <a href="#top">Back to Top</a>-->
+    <!--    <hr class="alt">-->
+    <!--</div>-->
+</div>
+</body>
+</html>

@@ -27,13 +27,6 @@ function generate() {
 
 }
 
-function pasteFromClipboard() {
-    let pasteText = document.getElementById("input")
-    pasteText.select();
-    pasteText.setSelectionRange(0, 99999)
-    navigator.clipboard.readText().then(r => document.getElementById("input").value = r)
-}
-
 function copyToClipboard() {
     let copyText = document.getElementById("output")
     navigator.clipboard.writeText(copyText.value).then(r => alert("Copied output!"))

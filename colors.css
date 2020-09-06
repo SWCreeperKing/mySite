@@ -3,7 +3,7 @@
 }
 
 html, body {
-    font-family: Calibri;
+    font-family: "Cascadia Code";
     height: 99%;
     width: 99%;
     user-select: none;
@@ -12,8 +12,29 @@ html, body {
     color: #bbbbbb;
 }
 
+h3 {
+    font-weight: normal;
+    color: #7bc3a2;
+}
+
+h5 {
+    font-weight: normal;
+    color: gold;
+}
+
+h4 {
+    color: cadetblue;
+}
+
 a {
     color: #2196F3;
+}
+
+hr.alt {
+    background-color: #bfa6e7;
+    width: 75%;
+    height: 1px;
+    border: none
 }
 
 button {

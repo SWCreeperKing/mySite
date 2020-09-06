@@ -10,12 +10,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78cb3e1b-abdf-42ec-897f-3cee3712435e" name="Default Changelist" comment="add img">
-      <change afterPath="$PROJECT_DIR$/pfp.png" afterDir="false" />
+    <list default="true" id="78cb3e1b-abdf-42ec-897f-3cee3712435e" name="Default Changelist" comment="continue">
+      <change afterPath="$PROJECT_DIR$/dfPfp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iupcIcon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/colors.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/botConfig.html" beforeDir="false" afterPath="$PROJECT_DIR$/botConfig.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dumpsterFire.html" beforeDir="false" afterPath="$PROJECT_DIR$/dumpsterFire.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iu-pcVer.html" beforeDir="false" afterPath="$PROJECT_DIR$/iu-pcVer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +43,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -49,6 +52,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\coding projects\Web\untitled" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\coding projects\Web\untitled" />
     </key>
@@ -78,7 +84,7 @@
       <workItem from="1597959592077" duration="1192000" />
       <workItem from="1598543572089" duration="199000" />
       <workItem from="1599079505112" duration="2302000" />
-      <workItem from="1599412076296" duration="8451000" />
+      <workItem from="1599412076296" duration="12373000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1597775415861</created>
@@ -122,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599420566209</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="continue">
+      <created>1599423352924</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1599423352924</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,7 +156,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="add img" />
-    <option name="LAST_COMMIT_MESSAGE" value="add img" />
+    <MESSAGE value="continue" />
+    <option name="LAST_COMMIT_MESSAGE" value="continue" />
   </component>
   <component name="WindowStateProjectService">
     <state x="972" y="515" key="Github.ShareDialog" timestamp="1597775715255">
@@ -158,9 +172,9 @@
       <screen x="0" y="0" width="2194" height="1234" />
     </state>
     <state x="606" y="262" key="SettingsEditor/0.0.2194.1234/3840.1072.1920.1080/-1920.1072.1920.1080@0.0.2194.1234" timestamp="1597863327685" />
-    <state x="690" y="350" key="Vcs.Push.Dialog.v2" timestamp="1599420567628">
+    <state x="690" y="350" key="Vcs.Push.Dialog.v2" timestamp="1599423356188">
       <screen x="0" y="0" width="2194" height="1234" />
     </state>
-    <state x="690" y="350" key="Vcs.Push.Dialog.v2/0.0.2194.1234/3840.1072.1920.1080/-1920.1072.1920.1080@0.0.2194.1234" timestamp="1599420567628" />
+    <state x="690" y="350" key="Vcs.Push.Dialog.v2/0.0.2194.1234/3840.1072.1920.1080/-1920.1072.1920.1080@0.0.2194.1234" timestamp="1599423356188" />
   </component>
 </project>

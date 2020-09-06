@@ -1,7 +1,12 @@
 let trustAdmins = false
+let ghostpingprotec = false
 
 function setTrust(bool) {
     trustAdmins = bool
+}
+
+function setGpProt(bool) {
+    ghostpingprotec = bool
 }
 
 function openTab(categoryName, element, buttonCategory) {
@@ -18,6 +23,7 @@ function generate() {
         + document.getElementById("joinMsg").value.replace(/_/gi, " ") + "_"
         + document.getElementById("leaveMsg").value.replace(/_/gi, " ") + "_"
         + trustAdmins + "_"
+        + ghostpingprotec + "_"
         + document.getElementById("logchnnlId").value + "_"
         + document.getElementById("jlchnnlId").value + "_"
         + document.getElementById("memberchnnlId").value + "_"

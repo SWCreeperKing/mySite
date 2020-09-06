@@ -3,25 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <title>Bot Configurer</title>
+    <link rel="icon" href="dfPfp.png">
     <link rel="stylesheet" href="colors.css">
     <script src="main.js"></script>
 </head>
 <body>
 <br>
 <a href="./dumpsterFire.html">Back To DumpsterFire's Info Page</a>
-<br><br><br>
-To get a Channel Id, right click the channel and click 'Copy Id'<br>
-To get a Role Id goto the server's settings -> go into roles -> right click on the role and click 'Copy Id'<br><br>
+<br>
+<br>You can use the <b>setserversettings</b> command for the bot to set the settings with the generated string
+<br>
+<br>To get a Channel Id, right click the channel and click 'Copy Id'
+<br>To get a Role Id goto the server's settings -> go into roles -> right click on the role and click 'Copy Id'
+<br><br>
 <label>
     <label>Server Prefix: </label>
     <input type="text" id="botPrefix" value="[]">
 </label><br>
 <div class="buttonContainer" id="trstAdmn">
     <label>Should I allow Admins to do powerful commands?: </label>
-    <button class="trustAdmin" id="trustAdminT" onclick="openTab('trstAdmn', this, 'trustAdmin'), setTrust(true)">Yes
+    <button class="trustAdmin" id="trustAdminT" onclick="openTab('trstAdmn', this, 'trustAdmin'); setTrust(true)">Yes
     </button>
     <button class="trustAdmin active" id="trustAdminF"
-            onclick="openTab('trstAdmn', this, 'trustAdmin'), setTrust(false)">No
+            onclick="openTab('trstAdmn', this, 'trustAdmin'); setTrust(false)">No
+    </button>
+</div>
+<div class="buttonContainer" id="ghostpingproc">
+    <label>Should I attempt to protect against immediate ghost pings? (not 100% fool proof): </label>
+    <button class="ghostpingprot" id="ghostpingprocT" onclick="openTab('ghostpingproc', this, 'ghostpingprot'); setGpProt(true)">Yes
+    </button>
+    <button class="ghostpingprot active" id="ghostpingprocF"
+            onclick="openTab('ghostpingproc', this, 'ghostpingprot'); setGpProt(false)">No
     </button>
 </div>
 <br>

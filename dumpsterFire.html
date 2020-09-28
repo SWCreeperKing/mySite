@@ -5,6 +5,13 @@
     <title>Dumpsterfire Help</title>
     <link rel="icon" href="dfPfp.png">
     <link rel="stylesheet" href="colors.css">
+
+    <meta property="og:site_name" content="SW_CreeperKing's Website">
+    <meta property="og:url" content="https://swcreeperking.github.io/mySite/dumpsterFire.html">
+    <meta property="og:title" content="Dumpsterfire Commands">
+    <meta property="og:description" content="A site to help understand Dumpsterfire's commands">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://swcreeperking.github.io/mySite/dfPic.png">
 </head>
 <body>
 <br>
@@ -28,179 +35,222 @@
 <h3><u>Some things you should know before getting into the command help</u></h3>
 <ol>
     <li>An alias is another name for the command.</li>
-    <li>Some commands will have additional arguments surrounded by <b>[]</b>, optional arguments will be surrounded with
-        <b>{}</b>.
+    <li>Some commands will have additional arguments surrounded by [], optional arguments will be surrounded with {}
     </li>
     <li>If a command can only be executed by the server owner (or an admin if trust admins is enabled in the <a
             href="#serversettings">server settings</a>) there will be a + in the
         front of the command.
     </li>
     <li>If something is <u>underlined</u> then it refers to the arguments of the command.</li>
-    <li>In the command arguments, the default argument in choices will be <u>underlined</u>.</li>
 </ol>
 <br>
 <br>
 <div style="text-align: center">
-    <h3>Command names and structure will be this color</h3>
-    <h4>Examples will be in this color</h4>
-    <h5>Descriptions will be this color</h5>
-</div>
-<br>
-<br>the format is: Command Name | Aliases | Usage
-<br>
-<hr>
-<br>
-<div id="top" style="alignment: center; text-align: center;">
-    <h1>Commands</h1>
-    <hr class="alt">
-    <a href="#8ball">8ball</a><br>
-    <a href="#ban">+ Ban +</a><br>
-    <a href="#clear">+ Clear +</a><br>
-    <a href="#help">Help</a><br>
-    <a href="#info">Info</a><br>
-    <a href="#kick">+ Kick +</a><br>
-    <a href="#mute">+ Mute +</a><br>
-    <a href="#plantmines">Plantmines</a><br>
-    <a href="#ping">Ping</a><br>
-    <a href="#serverinfo">Serverinfo</a><br>
-    <a href="#serversettings">+ Serversettings +</a><br>
-    <a href="#replicate">Replicate</a><br>
-</div>
-<br>
-<hr>
-<div style="text-align: center">
-    <h1>Help</h1>
-    <hr class="alt">
-    <div id="8ball">
-        <h3>8ball | 8b | <b>[]8ball {question}</b></h3>
-        <h5>The bot will respond to your <u>question</u> with either a yes, no, or maybe.</h5>
-        <h4>[]8ball Are you awake?</h4>
-        <h5>The bot will randomly respond with yes/no/maybe.</h5>
-        <a href="#top">Back to Top</a>
-        <hr class="alt">
-    </div>
-    <div id="ban">
-        <h3>+ Ban | <b>[]ban (user mention) {reason for ban}</b> +</h3>
-        <h5>The bot will allow you to ban a <u>mentioned user</u> and give a <u>reason for ban</u>.</h5>
-        <h4>[]ban @Mee6 Not doing your job</h4>
-        <h5>This will ban Mee6 for not doing its job.</h5>
-        <a href="#top">Back to Top</a>
-        <hr class="alt">
-    </div>
-    <div id="clear">
-        <h3>+ Clear | Clean | <b>[]clear {amount of messages from <u>1</u> to 999}</b> +</h3>
-        <h5>The bot will clear <u>n amount</u> of messages.</h5>
-        <h4>[]clear 4</h4>
-        <h5>This will clear 4 messages (including the message you sent, so make sure to do more than 1).</h5>
-        <a href="#top">Back to Top</a>
-        <hr class="alt">
-    </div>
-    <div id="help">
-        <h3>Help | Commands | <b>[]help {command name}</b></h3>
-        <h5>The bot will give you a list of commands you can execute, their aliases, and what they do.</h5>
-        <h4>[]help 8ball</h4>
-        <h5>This will give you help on the 8ball command.</h5>
-        <a href="#top">Back to Top</a>
-        <hr class="alt">
-    </div>
-    <div id="info">
-        <h3>Info | <b>[]info</b></h3>
-        <h5>The bot will give you info about itself.</h5>
-        <a href="#top">Back to Top</a>
-        <hr class="alt">
-    </div>
-    <div id="kick">
-        <h3>+ Kick | <b>[]kick [user Mention] {reason for Kick}</b> +</h3>
-        <h5>The bot will kick a <u>mentioned user</u> for a given <u>reason</u>.</h5>
-        <h4>[]kick @Mee6 Not doing your job</h4>
-        <h5>This will kick Mee6 for not doing its job.</h5>
-        <a href="#top">Back to Top</a>
-        <hr class="alt">
-    </div>
-    <div id="mute">
-        <h3>+ Mute | <b>[]mute [user mention] [duration in seconds] {reason for mute}</b> +</h3>
-        <h5>The bot will mute a <u>mentioned user</u> for a given <u>reason</u> for a given amount of <u>time</u> in
-            seconds.
-            <br>Assuming you have a mute role that's set in the <a href="#serversettings">server settings</a></h5>
-        <h4>[]mute @Mee6 Not doing your job</h4>
-        <h5>This will mute Mee6 for not doing its job.</h5>
-        <a href="#top">Back to Top</a>
-        <hr class="alt">
-    </div>
-    <div id="plantmines">
-        <h3>Plantmines | Plantmine | Pm | <b>[]plantmines {minefield size (<u>3</u> - 14)} {reveal zeros (true/<u>false</u>)}</b></h3>
-        <h5>The bot will generate a Minesweeper Board using spoilers (so make sure that they are turned on).
-            <br>Setting the reveal zeros to true will send a field where all the zeros are uncovered.
-        </h5>
-        <h4>[]plantmines 8</h4>
-        <h5>this will create a 8x8 board.</h5>
-        <a href="#top">Back to Top</a>
-        <hr class="alt">
-    </div>
-    <div id="ping">
-        <h3>Ping | <b>[]ping</b></h3>
-        <h5>Ask the bot what its ping (latency) to discord in milliseconds (ms).</h5>
-        <a href="#top">Back to Top</a>
-        <hr class="alt">
-    </div>
-    <div id="serverinfo">
-        <h3>Serverinfo | Si | <b>[]serverinfo</b></h3>
-        <h5>the bot will respond with information about the server</h5>
-        <a href="#top">Back to Top</a>
-        <hr class="alt">
-    </div>
-    <div id="serversettings">
-        <h3>+ Serversettings | Ss | <b>[]serversettings {command name}</b> +</h3>
-        <h5>The bot will list the serversetting's sub-commands and more info about them if you give it a <u>command
-            name.</u></h5>
-        <h4>[]serversettings</h4>
-        <h5>lists the serversettings commands</h5>
-        <hr class="altalt">
-        <h2>Server Settings Commands</h2>
-        <h4>You can also go and use the <a href="./botConfig.html">server settings configurer</a>.</h4>
-        <hr class="altalt">
-        <h3>Prefix | P | <b>[]p [new prefix]</b></h3>
-        <h5>Changes the bot's current prefix to a new one.</h5>
-        <hr class="altalt">
-        <h3>SetChannel | scl | <b>[]setchannel [log/joinleave/member] [channel id]</b></h3>
-        <h5>sets one of the <u>internal channels</u> in the settings with a given <u>channel id</u>.</h5>
-        <hr class="altalt">
-        <h3>ServerData | Sd | <b>[]sd</b></h3>
-        <h5>Shows all the data for the server settings.</h5>
-        <hr class="altalt">
-        <h3>Setghostpingprotection | Setgpingprot | Setgpp | <b>[]setgpp [true/false]</b></h3>
-        <h5>Should the bot send a message if a message with a ping gets deleted? (not 100% fool proof).</h5>
-        <hr class="altalt">
-        <h3>Setmessage | Sm | <b>[]setmessage [join/leave] [message]</b></h3>
-        <h5>Sets the <u>Join/Leave</u> <u>message</u>
-            <br>use [usr] in the message to be filled with the user mention.</h5>
-        <hr class="altalt">
-        <h3>Setmuterole | Setmute | Smr | <b>[]setmuterole [mute role Id]</b></h3>
-        <h5>Sets the Mute role to a given <u>role id</u>.</h5>
-        <hr class="altalt">
-        <h3>Setserversettings | Setss | Sss | <b>[]sss [generated string]</b></h3>
-        <h5>sets all the server setting according to the <u>string</u> thats generated by the <a
-                href="./botConfig.html">server settings configurer</a>.</h5>
-        <hr class="altalt">
-        <h3>Toggletrustadmins | Ttrustadmins | Ttadmins | Tta | <b>[]tta [true/false]</b></h3>
-        <h5>If the bot should treat admins like the owner.</h5>
-        <hr class="altalt">
-        <a href="#top">Back to Top</a>
-        <hr class="alt">
-    </div>
-    <div id="replicate">
-        <h3>Replicate | <b>[]replicate</b></h3>
-        <h5>The bot will send the bot's invite link so you can infect other servers with it.</h5>
-        <a href="#top">Back to Top</a>
-        <hr class="alt">
-    </div>
-    <!--<div>-->
-    <!--    <h3></h3>-->
-    <!--    <h5></h5>-->
-    <!--    <h4></h4>-->
-    <!--    <a href="#top">Back to Top</a>-->
-    <!--    <hr class="alt">-->
-    <!--</div>-->
+    <table>
+        <tr style="background: darkslategray">
+            <th>Command</th>
+            <th>Alias</th>
+            <th>Command Usage</th>
+            <th>Explanation</th>
+        </tr>
+        <tr>
+            <td class="center" rowspan="2">8ball</td>
+            <td class="center" rowspan="2">8b</td>
+            <td>[]8ball {question}</td>
+            <td>The bot will respond to your <u>question</u> with either a yes, no, or maybe.</td>
+        </tr>
+        <tr>
+            <td>[]8ball Are you awake?</td>
+            <td>The bot will randomly respond with yes/no/maybe.</td>
+        </tr>
+        <tr class="adminP">
+            <td class="center" rowspan="2" colspan="2">Ban</td>
+            <td>[]ban (user mention) {reason for ban}</td>
+            <td>The bot will allow you to ban a <u>mentioned user</u> and give a <u>reason for ban</u>.</td>
+        </tr>
+        <tr class="adminP">
+            <td>[]ban @Mee6 Not doing your job</td>
+            <td>This will ban Mee6 for not doing its job.</td>
+        </tr>
+        <tr class="adminP">
+            <td class="center" rowspan="2">Clear</td>
+            <td class="center" rowspan="2">Clean</td>
+            <td>[]clear {amount of messages from 1 to 999, Default: 1}</td>
+            <td>The bot will clear <u>n amount</u> of messages.</td>
+        </tr>
+        <tr class="adminP">
+            <td>[]clear 4</td>
+            <td>This will clear 4 messages (including the message you sent, so make sure to do more than 1).</td>
+        </tr>
+        <tr>
+            <td class="center" rowspan="2">Help</td>
+            <td class="center" rowspan="2">Commands</td>
+            <td>[]help {command name}</td>
+            <td>The bot will give you a list of commands you can execute, their aliases, and what they do.</td>
+        </tr>
+        <tr>
+            <td>[]help 8ball</td>
+            <td>This will give you help on the 8ball command.</td>
+        </tr>
+        <tr>
+            <td class="center" colspan="2">Info</td>
+            <td>[]info</td>
+            <td>The bot will give you info about itself.</td>
+        </tr>
+        <tr class="adminP">
+            <td class="center" rowspan="2" colspan="2">Kick</td>
+            <td>[]kick [user Mention] {reason for Kick}</td>
+            <td>The bot will kick a <u>mentioned user</u> for a given <u>reason</u>.</td>
+        </tr>
+        <tr class="adminP">
+            <td>[]kick @Mee6 Not doing your job</td>
+            <td>This will kick Mee6 for not doing its job.</td>
+        </tr>
+        <tr class="adminP">
+            <td class="center" rowspan="2" colspan="2">Mute</td>
+            <td>[]mute [user mention] [duration in seconds] {reason for mute}</td>
+            <td>The bot will mute a <u>mentioned user</u> for a given <u>reason</u> for a given amount of <u>time</u> in
+                seconds. Assuming you have a mute role that's set in the <a href="#serversettings">server settings</a>
+            </td>
+        </tr>
+        <tr class="adminP">
+            <td>[]mute @Mee6 Not doing your job</td>
+            <td>This will mute Mee6 for not doing its job.</td>
+        </tr>
+        <tr>
+            <td class="center" rowspan="2">Plantmines</td>
+            <td class="center" rowspan="2">Plantmines, Pm</td>
+            <td>[]plantmines {minefield size (3 - 14) Default: 3} {reveal zeros (true/false) Default: false}</td>
+            <td>The bot will generate a Minesweeper Board using spoilers (so make sure that they are turned on). Setting
+                the reveal zeros to true will send a field where all the zeros are uncovered.
+            </td>
+        </tr>
+        <tr>
+            <td>[]plantmines 8</td>
+            <td>this will create a 8x8 board.</td>
+        </tr>
+        <tr>
+            <td class="center" colspan="2">Ping</td>
+            <td>[]ping</td>
+            <td>Ask the bot what its ping (latency) to discord in milliseconds (ms).</td>
+        </tr>
+        <tr>
+            <td class="center">Serverinfo</td>
+            <td class="center">Si</td>
+            <td>[]serverinfo</td>
+            <td>the bot will respond with information about the server</td>
+        </tr>
+
+        <tr class="adminP">
+            <td class="center" rowspan="3">Serversettings</td>
+            <td class="center" rowspan="3">Ss</td>
+            <td><b>[]serversettings {command name}</b></td>
+            <td>The bot will list the serversetting's sub-commands and more info about them if you give it a <u>command
+                name</u>.
+            </td>
+        </tr>
+        <tr class="adminP">
+            <td>[]serversettings</td>
+            <td>lists the serversettings commands</td>
+        </tr>
+        <tr class="adminP">
+            <td>Server Settings Commands (You can also go and use the <a href="./botConfig.html">server settings
+                configurer</a>.)
+            </td>
+            <td>
+                <table>
+                    <tr style="background: darkslategray">
+                        <th>Command</th>
+                        <th>Alias</th>
+                        <th>Command Usage</th>
+                        <th>Explanation</th>
+                    </tr>
+                    <tr>
+                        <td>Prefix</td>
+                        <td>P</td>
+                        <td>[]p [new prefix]</td>
+                        <td>Changes the bot's current prefix to a new one.</td>
+                    </tr>
+                    <tr>
+                        <td>SetChannel</td>
+                        <td>Scl</td>
+                        <td>[]setchannel [log/joinleave/member] [channel id]</td>
+                        <td>sets one of the <u>internal channels</u> in the settings with a given <u>channel id</u>.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>ServerData</td>
+                        <td>Sd</td>
+                        <td>[]sd</td>
+                        <td>Shows all the data for the server settings.</td>
+                    </tr>
+                    <tr>
+                        <td>Setghostpingprotection</td>
+                        <td>Setgpingprot, Setgpp</td>
+                        <td>[]setgpp [true/false]</td>
+                        <td>Should the bot send a message if a message with a ping gets deleted? (not 100% fool
+                            proof).
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Setmessage</td>
+                        <td>Sm</td>
+                        <td>[]setmessage [join/leave] [message]</td>
+                        <td>Sets the <u>Join/Leave</u> <u>message</u>
+                            <br>use [usr] in the message to be filled with the user mention.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Setmuterole</td>
+                        <td>Setmute, Smr</td>
+                        <td><[]setmuterole [mute role Id]/td>
+                        <td>Sets the Mute role to a given <u>role id</u>.</td>
+                    </tr>
+                    <tr>
+                        <td>Setserversettings</td>
+                        <td>Setss, Sss</td>
+                        <td>[]sss [generated string]</td>
+                        <td>sets all the server setting according to the <u>string</u> thats generated by the <a
+                                href="./botConfig.html">server settings configurer</a>.</td>
+                    </tr>
+                    <tr>
+                        <td>Toggletrustadmins</td>
+                        <td>Ttrustadmins, Ttadmins, Tta</td>
+                        <td>[]tta [true/false]</td>
+                        <td>If the bot should treat admins like the owner.</td>
+                    </tr>
+
+                    <!--                    <tr>-->
+                    <!--                        <td></td>-->
+                    <!--                        <td></td>-->
+                    <!--                        <td></td>-->
+                    <!--                        <td></td>-->
+                    <!--                    </tr>-->
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="center" colspan="2">Replicate</td>
+            <td>[]replicate</td>
+            <td>The bot will send the bot's invite link so you can infect other servers with it.</td>
+        </tr>
+        <!--        <tr>-->
+        <!--            <td class="center" rowspan="2"></td>-->
+        <!--            <td class="center" rowspan="2"></td>-->
+        <!--            <td></td>-->
+        <!--            <td></td>-->
+        <!--        </tr>-->
+        <!--        <tr>-->
+        <!--            <td></td>-->
+        <!--            <td></td>-->
+        <!--        </tr>-->
+    </table>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 </div>
 </body>
 </html>

@@ -1,5 +1,6 @@
 let trustAdmins = false
 let ghostpingprotec = false
+let prefix = "[]"
 
 function setTrust(bool) {
     trustAdmins = bool

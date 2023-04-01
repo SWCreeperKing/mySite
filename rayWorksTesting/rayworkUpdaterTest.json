@@ -1,14 +1,10 @@
-[
-  {
-    "Item1" :
-    {
-      "1.1" : "https://swcreeperking.github.io/mySite/rayWorksTesting/V11/UpdateTester.exe",
-      "1.0" : "https://swcreeperking.github.io/mySite/rayWorksTesting/V1/UpdateTester.exe"
-    },
-    "Item2" :
-    {
-      "1.1" : 1,
-      "1.0" : 0
-    }
+{
+  "Item1": {
+    "1.1": "https://swcreeperking.github.io/mySite/rayWorksTesting/V11/UpdateTester.exe",
+    "1.0": "https://swcreeperking.github.io/mySite/rayWorksTesting/V1/UpdateTester.exe"
+  },
+  "Item2": {
+    "1.1": 1,
+    "1.0": 0
   }
-]
+}
